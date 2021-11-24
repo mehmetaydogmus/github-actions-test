@@ -4,11 +4,6 @@ Library    String
 Library    Collections
 Suite Setup    Create Session  jsonplaceholder  https://jsonplaceholder.typicode.com
 
-Library    RequestsLibrary
-Library    String
-Library    Collections
-Suite Setup    Create Session  jsonplaceholder  https://jsonplaceholder.typicode.com
-
 
 *** Variables ***
 ${base_URL}    http://dummy.restapiexample.com/api/v1
